@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(24, 24, 24);
+    color: rgb(182, 184, 185);
+}
+
+
+.container1 {
+    background-color: #1f1f1f;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 2px;
+}
+
+.container2 {
+    background-color: #1f1f1f;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 2px;
+}
+
+.input1 {
+    background-color: #2b2a2a;
+    padding: 8px;
+    border-radius: 4px;
+    border: none; /* solid 1px #333333; */
+    outline: none;
+    color: aliceblue;
+}
+
+.button1 {
+    background-color: #6ec08b;
+    color: #2b2a2a;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}

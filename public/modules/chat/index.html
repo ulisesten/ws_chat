@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Aplicación</title>
+    <link rel="stylesheet" href="/modules/chat/css/styles.css">
+</head>
+<body>
+    <h1>Bienvenido a mi aplicación</h1>
+    <div class="chat_container">
+        <div class="container2" id="chat_messages_list"></div>
+        <div class="container1">
+            <input class="input1" id="msg_input" type="text">
+            <button class="button1">Send</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/modules/chat/js/script.js"></script>
+</body>
+</html>
